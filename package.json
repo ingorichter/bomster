@@ -1,0 +1,44 @@
+{
+  "name": "bomster",
+  "version": "1.0.0",
+  "description": "Create and verify a BOM for software deliverables",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && nyc ava",
+    "start": "node index.js",
+    "report": "nyc report --reporter lcov && open coverage/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/ingorichter/bomster"
+  },
+  "keywords": [
+    "BOM",
+    "check",
+    "helper",
+    "tool",
+    "softwaredev",
+    "publish"
+  ],
+  "author": "Ingo Richter",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "mkdirp": "^0.5.1",
+    "nyc": "^6.4.4",
+    "promise-temp": "^0.1.0",
+    "xo": "^0.15.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "ramda": "^0.21.0",
+    "walk": "^2.3.9",
+    "yargs": "^4.7.0"
+  },
+  "bin": {
+    "bomster": "./index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
