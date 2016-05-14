@@ -6,6 +6,7 @@
   "scripts": {
     "test": "xo && nyc ava",
     "start": "node index.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "report": "nyc report --reporter lcov && open coverage/lcov-report/index.html"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.14.0",
+    "coveralls": "^2.11.9",
     "mkdirp": "^0.5.1",
     "nyc": "^6.4.4",
     "promise-temp": "^0.1.0",
