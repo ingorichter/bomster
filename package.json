@@ -41,6 +41,6 @@
     "bomster": "./index.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">0.10.0"
   }
 }
