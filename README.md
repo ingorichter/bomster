@@ -1,4 +1,4 @@
-# bomster [![Build Status](https://travis-ci.org/ingorichter/bomster.svg?branch=master)](https://travis-ci.org/ingorichter/bomster)
+# bomster [![Build Status](https://travis-ci.org/ingorichter/bomster.svg?branch=master)](https://travis-ci.org/ingorichter/bomster) [![Coverage Status](https://coveralls.io/repos/github/ingorichter/bomster/badge.svg?branch=master)](https://coveralls.io/github/ingorichter/bomster?branch=master)
 
 > Create and verify a BOM for software deliverables
 
