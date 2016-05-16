@@ -52,7 +52,7 @@ test('create bom', async t => {
 test('should not create bom for missing directory', t => {
 	t.plan(1);
 
-	t.throws(bomster.createBOM(), 'path must be a string');
+	t.throws(bomster.createBOM(), /path must be a string.*/);
 });
 
 test('should not create bom for not existing directory', t => {
